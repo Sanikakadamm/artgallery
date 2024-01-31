@@ -1,0 +1,55 @@
+.logo {
+    float: left;
+    height: 80px;
+    width: 100%;
+    position:fixed; 
+	top:0; 
+	left:0;
+  }
+  /* ~~ Top Navigation Bar ~~ */
+  
+  #navigation-container {
+    width: 1200px;
+    margin: 0 auto;
+    height: 70px;
+  }
+  
+  .navigation-bar {
+    background-color: rgba(231,240,235,255);
+    height: 70px;
+    width: 100%;
+  }
+  
+  #navigation-container img {
+    float: right;
+  }
+  
+  #navigation-container ul {
+    padding: 0px;
+    margin: 0px;
+    text-align: right;
+    display:inline-block;
+  }
+  
+  #navigation-container li {
+    list-style-type: none;
+    padding: 0px;
+    height: 24px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    display: inline;
+  }
+  
+  #navigation-container li a {
+    color: black;
+    font-size: 17px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    line-height: 70px;
+    padding: 5px 15px;
+    opacity: 0.7;
+  }
+  
+  #menu {
+    float: right;
+  }
